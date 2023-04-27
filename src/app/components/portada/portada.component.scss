@@ -1,0 +1,17 @@
+.box {
+  width: 100%;
+  height: 1000px;
+
+  .contenedor {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../assets/images/Portada\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+  }
+}

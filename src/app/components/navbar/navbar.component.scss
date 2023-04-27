@@ -1,0 +1,94 @@
+:root {
+
+  --blanco: #ffffff;
+  --negro: #000;
+  --naranja: #f4a020;
+  --verde: #8db600;
+  --azul: #00d7ff;
+  --rosado: #ff94ac;
+
+  --negroTrans: #00000080;
+  --naranjaTrans: #f49f2090;
+  --verdeTrans: #8db60090;
+  --azulTrans: #00d9ff90;
+  --rosadoTrans: #ff94ac90;
+
+}
+.logo{
+margin-left: 50px;
+}
+
+.navbar {
+  background-color: #00000080;
+  margin-top: 30px;
+}
+
+.nav-link {
+font-size: 20px;
+color: #ffffff;
+margin-left: 35px;
+}
+
+.uno:hover{
+  transition: 250ms;
+  transform: scale(1.03);
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #f4a020;
+
+}
+
+.dos:hover{
+  transition: 250ms;
+  transform: scale(1.03);
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #8db600;
+}
+
+.tres:hover{
+  transition: 250ms;
+  transform: scale(1.03);
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #00d7ff;
+}
+
+.cuatro:hover{
+  transition: 250ms;
+  transform: scale(1.03);
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #ff94ac;
+}
+
+.cinco:hover{
+  transition: 250ms;
+  transform: scale(1.03);
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #f4a020;
+}
+
+.seis:hover{
+  transition: 250ms;
+  transform: scale(1.03);
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #8db600;
+}
+
+.sticky {
+  transition: 500ms;
+  background-color: #000 !important;
+  margin-top: 0;
+
+  .nav-link{
+    color: #ffffff;
+    font-size: 20px;
+  }
+  img {
+    width: 150px;
+  }
+
+}
